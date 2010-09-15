@@ -1,0 +1,6 @@
+I'm working with some large datasets and I couldn't easily find a line graph
+plugin for jQuery or Prototype that weren't slow. This graph (dumbly) reduces
+the number of data points to however many pixels are in the canvas, which means
+100,000 data points graph almost as fast as 1,000 data points.
+
+This is barely working.
